@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: url('img/image1.jpeg') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #fff;
+    text-align: center;
+    position: relative;
+}
+
+.overlay {
+   	position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7); /* Полупрозрачный черный фон */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 2;
+}
+
+h1 {
+    font-size: 8em;
+    font-family: 'Georgia', serif;
+    text-shadow: 5px 5px 8px rgba(0, 0, 0, 0.7);
+}
