@@ -1,15 +1,12 @@
 body {
     margin: 0;
     font-family: 'Arial', sans-serif;
-    background: url('img/image1.jpeg') no-repeat center center fixed;
+    background: url('img/image2.png') no-repeat center center fixed;
     background-size: cover;
-    display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     color: #fff;
-    text-align: center;
-    position: relative;
 }
 
 .overlay {
@@ -20,7 +17,7 @@ body {
     bottom: 0;
     background: rgba(0, 0, 0, 0.7); /* Полупрозрачный черный фон */
     display: flex;
-    justify-content: center;
+    justify-content: center;r
     align-items: center;
     flex-direction: column;
     z-index: 2;
@@ -28,6 +25,8 @@ body {
 
 h1 {
     font-size: 8em;
-    font-family: 'Georgia', serif;
+    text-align: center;
+    color: red;
+    font-family: 'Lobster', cursive;
     text-shadow: 5px 5px 8px rgba(0, 0, 0, 0.7);
 }
